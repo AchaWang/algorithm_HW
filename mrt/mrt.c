@@ -696,9 +696,6 @@ else{
         strcpy(paths,tmp_paths);          
        *count=tmp_count;
     }
-
-
-
     else{//完全沒有可行路徑
         *success_find=0;
         *count=999; 
